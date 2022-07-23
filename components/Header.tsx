@@ -1,4 +1,5 @@
 import Link from "next/link";
+import BloggyLogo from "/public/bloggy_logo.png";
 
 function Header() {
   return (
@@ -7,7 +8,7 @@ function Header() {
         <Link href="/">
           <img
             className="w-44 object-contain cursor-pointer"
-            src="bloggy_logo.png"
+            src={BloggyLogo.src}
             alt="logo"
           />
         </Link>
